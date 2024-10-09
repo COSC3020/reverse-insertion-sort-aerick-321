@@ -29,6 +29,8 @@ In the lectures, we covered that insertion sort has best-case time complexity of
 $\Theta(n)$ and worst-case time complexity of $\Theta(n^2)$. What is the
 average-case time complexity ($\Theta$)?
 
+The average case is also the worst case, $\Theta(n^2)$, because as long as it is not the best case when the constant new number is the largest, it still has to go through $\Theta(n)$ per itereation which ends up being $\Theta(n^2)$.
+
 Hint: Think about what happens in each iteration of the loop, and how often the
 loop is executed. Keep in mind that for asymptotic analysis we don't care about
 constant factors.
